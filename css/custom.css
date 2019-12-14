@@ -1,0 +1,28 @@
+/*index.html css */
+
+.human-nav-bar {
+    margin-left: 66%
+}
+
+.human-index-div {
+    margin: 16%
+}
+
+.human-footer {
+    color: white;
+    padding: 10px;
+}
+
+/* features.html css */
+
+.human-features-container {
+    margin-top: 6%
+}
+
+.human-features-main {
+    margin: 3.5%
+}
+
+.human-features-form {
+    margin-right: 20%;
+}
