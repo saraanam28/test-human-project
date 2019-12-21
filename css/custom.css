@@ -1,8 +1,29 @@
 /*index.html css */
 
-.human-nav-bar {
-    margin-left: 66%
+.human-body {
+    background-image: url('/img/bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+  
+    
 }
+
+.text-style {
+    color: white;
+    text-shadow: 3px 2px 10px rgba(0,0,0,0.96);
+}
+
+
+.human-nav-bar {
+    margin-left: 66%;
+}
+
+
+
+
 
 .human-index-div {
     margin: 16%

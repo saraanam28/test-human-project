@@ -5,10 +5,23 @@
         <title>The Human Project</title>
         <link rel="stylesheet" href="/css/bootstrap.css">
         <link rel="stylesheet" href="/css/custom.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+        $(document).ready(function() {
+            $("#human-nav-bar").load("/html/partial/navbar.html");
+    
+        });
+        </script>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+    
     </head>
     <body>
-        <header></header>
+        <header>
+            <div id="human-nav-bar">
+
+            </div>
+        </header>
         <main>
             <div class="text-center human-features-main">
                 <h1 class="dislplay-4">Features</h1>
@@ -60,5 +73,7 @@
                 </div>
             </div>
         </main>
-        <footer></footer>
+        <footer class="text-center bg-dark human-footer fixed-bottom">
+            &copy All Rights Reserved. <i>The Human Project</i>
+        </footer>
     </body>
