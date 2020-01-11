@@ -1,7 +1,7 @@
 /*index.html css */
 
 .human-body {
-    background-image: url('/img/bg.jpg');
+    background-image: url('/assets/img/bg.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -46,4 +46,10 @@
 
 .human-features-form {
     margin-right: 20%;
+}
+
+/*Common CSS*/
+
+.human-removed{
+    display: none;
 }

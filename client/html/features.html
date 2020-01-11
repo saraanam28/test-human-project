@@ -33,7 +33,7 @@
                             <p class="lead">
                                 We want to hear what you want from us to be more human!
                             </p>
-                            <form class="human-features-form">
+                            <form id="featureForm" class="human-features-form">
                                 <div class="form-group">
                                   <label for="exampleFormControlInput1">Your Name:</label>
                                   <input type="text" class="form-control"  placeholder="Your Name">
@@ -42,10 +42,16 @@
                                   <label for="exampleFormControlSelect1">Your Suggestion:</label>
                                   <textarea class="form-control" rows="3"></textarea>
                                 </div>
-                                <button type="submit" class="btn btn-primary">Submit</button>
-                                  
-                              
+                                
+                                <button id="featureSubmitBtn" type="button" class="btn btn-primary">Submit</button>
+                                
                               </form>
+                              <div id="featureLoading" class="human-removed text-center" >
+                                <img src="/assets/loader.svg"/>
+                                <p>
+                                    <i>Sending Data to the Server....</i>
+                                </p>
+                            </div>
                         </div>
                         <div class="col-6">
                             <div class="card">
@@ -77,3 +83,5 @@
             &copy All Rights Reserved. <i>The Human Project</i>
         </footer>
     </body>
+    <script src="/js/features.js"></script>
+    </html>
